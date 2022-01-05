@@ -13,7 +13,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-const baseUrl = "http://111.229.238.28:8085/file/"
+const baseUrl = "http://127.0.0.1:8085/file/"
 
 type Response struct {
 	Code    int         `json:"code"`

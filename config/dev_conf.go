@@ -18,25 +18,25 @@ func initDevConf() {
 		WSListenAddr:         ":8081",
 		RPCListenAddr:        ":50000",
 		LocalAddr:            "127.0.0.1:50000",
-		RedisIP:              "111.229.238.28:6379",
-		RedisPassword:        "alber123456",
+		RedisIP:              "127.0.0.1:6379",
+		RedisPassword:        "",
 		PushRoomSubscribeNum: 100,
 		PushAllSubscribeNum:  100,
 	}
 
 	Logic = LogicConf{
-		MySQL:         "root:gim123456@tcp(111.229.238.28:3306)/gim?charset=utf8&parseTime=true",
-		NSQIP:         "111.229.238.28:4150",
-		RedisIP:       "111.229.238.28:6379",
-		RedisPassword: "alber123456",
+		MySQL:         "root:XX1516305754@tcp(127.0.0.1:3306)/gim?charset=utf8&parseTime=true",
+		NSQIP:         "127.0.0.1:3306",
+		RedisIP:       "127.0.0.1:6379",
+		RedisPassword: "",
 		RPCListenAddr: ":50100",
 	}
 
 	Business = BusinessConf{
-		MySQL:         "root:gim123456@tcp(111.229.238.28:3306)/gim?charset=utf8&parseTime=true",
-		NSQIP:         "111.229.238.28:4150",
-		RedisIP:       "111.229.238.28:6379",
-		RedisPassword: "alber123456",
+		MySQL:         "root:XX1516305754@tcp(127.0.0.1:3306)/gim?charset=utf8&parseTime=true",
+		NSQIP:         "127.0.0.1:3306",
+		RedisIP:       "127.0.0.1:6379",
+		RedisPassword: "",
 		RPCListenAddr: ":50200",
 	}
 
